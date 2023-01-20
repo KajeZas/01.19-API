@@ -1,13 +1,35 @@
 .nav{
-    width: 50vw;
+    margin: auto;
+    width: 70vw;
     height: 8vh;
-    align-content:inherit;
 }
-
-
 ul{
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    font-size: xx-large;
+    color: black;
+}
+img{
+    height: 40%;
+    max-width: 30%;
+    max-height: 80vh;
+}
+.nyt{
+    height: 80vh;
+    width: 80vw;
+
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content:space-around;
+    
+
+    flex-wrap: wrap;
+    max-width: 80vw;
+    max-height: 80vh;
 }
