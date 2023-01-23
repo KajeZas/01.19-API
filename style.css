@@ -15,21 +15,39 @@ a{
     color: black;
 }
 img{
-    height: 40%;
-    max-width: 30%;
-    max-height: 80vh;
+    height: 100%;
+    width: 100%;
 }
 .nyt{
-    height: 80vh;
     width: 80vw;
 
     display: flex;
     margin: auto;
     flex-direction: row;
-    justify-content:space-around;
-    
 
     flex-wrap: wrap;
-    max-width: 80vw;
-    max-height: 80vh;
+
+    border: solid 2px green;
+}
+.postas{
+    border: solid 2px green;
+    height: 45vh;
+    width: 24vw;
+    margin: 1%;
+    position: relative;
+}
+.antraste{
+    position:absolute;
+    width: auto;
+    height: auto;
+    background-color: yellow;
+    text-align: center;
+    font-size:xx-large;
+}
+.intro{
+    position: absolute;
+    background-color: yellow;
+    height: 30%;
+    width: 100%;
+    bottom: 0;
 }
